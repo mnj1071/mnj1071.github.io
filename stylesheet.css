@@ -1,0 +1,82 @@
+.navbar-brand, .nav-link{
+    color: #fff;
+}
+
+.navbar{
+    position: fixed;
+}
+
+.header{
+    height: 1000px;
+    background-image: linear-gradient(to bottom, transparent 30%, black 100%), url("./assets/main.jpeg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.main{
+    padding-top: 90px;
+    background-color: black;
+}
+
+.CSE{
+    font-size: 30px;
+    color: #fff;
+    opacity: 80%;
+    font-weight: 100;
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 750px;
+    font-family: 'Jeju Hallasan';
+}
+
+.etc{
+    height: auto;
+    background-color: #151515;
+}
+
+.Photo1, .Photo2{
+    width: 400px;
+    height: 250px;
+    overflow: hidden;
+    font-size: 15px;
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 5%;
+    padding-right: 50px;
+    padding-top: 20px;
+    font-style: italic;
+    color: #ddd;
+}
+
+.Photo1{
+    margin-left: 20%;
+    float: left;
+}
+
+.Photo1 img, .Photo2 img{
+    width: 100%;
+    height: auto;
+}
+
+.Chocolate{
+    padding-top: 200px;
+    padding-left: 15%;
+    font-size: 25px;
+    color: #eee;
+    font-style: italic;
+    padding-bottom: 300px;
+}
+
+.footer{
+    background: linear-gradient(to bottom, black, #1C1C1C);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    margin-bottom: 0;
+    font-size: 0.8rem;
+    line-height: 2;
+    color: #8d8d8d;
+}
